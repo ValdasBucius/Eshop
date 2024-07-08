@@ -1,5 +1,6 @@
 import React from "react";
 import { BsCart4 } from "react-icons/bs";
+import { CiHeart } from "react-icons/ci";
 import { FaClock, FaMapMarkerAlt, FaRegHeart } from "react-icons/fa";
 import { FaSquarePhone } from "react-icons/fa6";
 import { FcShop } from "react-icons/fc";
@@ -44,7 +45,7 @@ export default function Header() {
 
       <div className="flex gap-2 border p-2 rounded-sm">
         <div>
-          <FaRegHeart color="red" size="2em" />
+          <CiHeart color="red" size="2em" />
         </div>
         <div>
           <VscAccount color="black" size="2em" />
