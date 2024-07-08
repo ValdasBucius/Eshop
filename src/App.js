@@ -1,7 +1,17 @@
+import { IconContext } from "react-icons";
+import Container from "./Layout/Container";
+import Header from "./Layout/Header";
+import Main from "./Layout/Main";
+
 function App() {
   return (
     <div className="App">
-      <h1 className="text-lg bg-red-200">Hi guys</h1>
+      <IconContext.Provider value={{ color: "black", size: "6em" }}>
+        <Container>
+          <Header />
+          <Main />
+        </Container>
+      </IconContext.Provider>
     </div>
   );
 }
